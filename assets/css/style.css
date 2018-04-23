@@ -1,0 +1,32 @@
+#mcpic {
+    width: 40%;
+    /* height: 50%; */
+}
+
+.carouselimage {
+
+    height: 400px;
+
+}
+
+.carousel-caption {
+
+    background: black;
+
+}
+
+
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+small {
+    font-size: 90%;
+
+}
+.xxx {
+    width: 15%;
+
+}
