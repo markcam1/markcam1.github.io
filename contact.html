@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mark Cameron</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -27,7 +26,7 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">More</a>
                     <div class="dropdown-menu">
-                    <a class="dropdown-item" href="portfolio.html">Designs</a>
+                    <a class="dropdown-item" href="portfolio.html">Portfolio</a>
                     <a class="dropdown-item" href="contact.html">Contact</a>
                     <a class="dropdown-item" href="#">Coming Soon</a>
                     <div class="dropdown-divider"></div>
@@ -44,7 +43,7 @@
         <div class="col-md-6">
             <div class="row">
                 <div class="col">
-                    <h1>Contact</h1>
+                    <h1>Contact Me</h1>
                 </div>
                 <br>
             </div>
@@ -52,13 +51,14 @@
                 <div class="col">
                     <form>
                         <div class="form-group">
-                            <label for="name">Name</label><br>
-                            <input type="text" name="name" placeholder="John Smith"><br>
-                            <label for="email">Email</label><br>
-                            <input type="text" name="email"placeholder="example@gmail.com" ><br>
-                            <label for="message">Message</label><br>
-                            <textarea id="message" name="message" style="height:200px"></textarea>
-                            <input type="button" value="Submit">
+                            <label for="inputname">Your Name</label>
+                            <input type="text" class="form-control" id="inputname" name="name" placeholder="Somebody Soandso">
+                            <label for="InputEmail">Email address</label>
+                            <input type="email" class="form-control" id="inputemail" name="email" placeholder="your_email@whatever.com">
+                            <label for="Textarea">Message</label>
+                            <textarea class="form-control" id="messagearea" name="messagearea" rows="3" placeholder="Clever stuff here"></textarea>
+                            <br>
+                            <button type="submit" class="btn btn-primary">Send It</button>
                         </div>
                     </form>
                 </div>

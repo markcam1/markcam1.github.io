@@ -2,36 +2,40 @@ var portfolio = {
     Hangman: {
         title : "Hangman Word Game", 
         sub: "JavaScript & jQuery",
-        description: "This is the first game I created using HTML/CSS and JavaScript and jQuery." +
+        description: "This is my first interactive creation using HTML/CSS and JavaScript and jQuery." +
         "The code is far from perfect but I’m proud of the design theme and use of an object to hold the game parameters.",
         imageUrl: "assets/images/hang.jpg",
         deployUrl: "https://markcam1.github.io/Hangman-Game/",
         codeUrl: "https://github.com/markcam1/Hangman-Game"
     },
     StarWars : {
-        title : "Fan appreciation game", 
-        sub: "JavaScript", 
-        description: "Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.",
+        title : "Star Wars Fan Appreciation Game", 
+        sub: "JavaScript, jQuery, Bootstrap CSS", 
+        description: "For this production I wanted to design an experience that will pull players into the game world without taking itself too seriously." + 
+        " To accomplish this there’s a starship-full of jQuery to move the game players around the DOM. ",
         imageUrl: "assets/images/sw.jpg",
-        deployUrl: "",
-        codeUrl: "",
+        deployUrl: "https://markcam1.github.io/StarWarsGame/",
+        codeUrl: "https://github.com/markcam1/StarWarsGame",
     },
     Trivia : {
         title : "Interstellar Trivia",
-        sub: "JavaScript",
-        description: "Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.",
+        sub: "JavaScript, jQuery, ajax (jQuery), Bootstrap CSS",
+        description: "The theme to this application came directly from my kid’s current fascination the solar system; like a children’s book its simple and topical." +
+        "The code employs a jQuery-ajax call to show users a GIF representing the correctness of their choice. ",
         imageUrl: "assets/images/triv.jpg",
-        deployUrl: "",
-        codeUrl: "",
+        deployUrl: "https://markcam1.github.io/TriviaGame/",
+        codeUrl: "https://github.com/markcam1/TriviaGame",
     },
 
     gifShow : {
-        title: "Dancing Gig Machine", 
+        title: "The Dancing GIF Engine", 
         sub: "created with API Calls (ajax)",
-        description: "Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.",
+        description: "Here I created a GIF-getting website that displays dancing GIFS from a preset list," +
+        "but the site also allows the user to stop and start the animation and create custom buttons that grab GIFs of their choosing." +
+        "The code behind this relies on jQuery.ajax calls and the HTML5’s data-attributes to get the DOM moving and grooving.",
         imageUrl: "assets/images/gif.jpg",
-        deployUrl: "",
-        codeUrl: ""
+        deployUrl: "https://markcam1.github.io/giftastic/",
+        codeUrl: "https://github.com/markcam1/giftastic"
     },
     RPS : {
         title: "Multiplayer Rock-Paper-Sciccors", 
@@ -85,11 +89,12 @@ $(document).ready(function(){
        var bannerSubTitle = newBtn.sub;
        var bannerDesc = newBtn.description;
        var bannerImage = newBtn.imageUrl;
+       var bannerDeploy = newBtn.deployUrl;
        
        var grandParentDiv = $("<a/>");
     
        grandParentDiv.attr({
-           href: bannerImage,
+           href: bannerDeploy,
            class: aClass,
        })
        

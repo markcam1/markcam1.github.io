@@ -1,6 +1,15 @@
+body {
+    background: url(../images/whitey.png)
+}
+
+
 #mcpic {
     width: 40%;
     /* height: 50%; */
+}
+
+#aboutme {
+    background: white;
 }
 
 .carouselimage {
@@ -22,11 +31,11 @@
     bottom: 0;
 }
 
-small {
+/* small {
     font-size: 90%;
 
-}
-.xxx {
+} */
+/* .xxx {
     width: 15%;
 
-}
+} */
