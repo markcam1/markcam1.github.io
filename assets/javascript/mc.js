@@ -165,8 +165,7 @@ function carouselDataMaker (){
 
     for (i = 1; i < portfoliioKeysArray; i++){
 
-        var slideNum = portfoliioKeysArray[i];
-
+        var slideNum = [i];
         var carouselTarget = $("<li>");
 
         carouselTarget.attr({
@@ -175,9 +174,6 @@ function carouselDataMaker (){
         })
 
         $("#carouseldatadrop").append(carouselTarget);
-
-        //<li data-target="#carouselPortfolio" data-slide-to="1">
-
     }
 
 
