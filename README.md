@@ -43,20 +43,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * etc
 
 
-
-
-------------------------------------------------------------------------------------------
-## Themes
-https://www.toptal.com/designers/subtlepatterns/xv/
-https://www.toptal.com/designers/subtlepatterns/restaurant-2/
-https://www.toptal.com/designers/subtlepatterns/polonez-pattern-2/
-https://www.toptal.com/designers/subtlepatterns/r-i-p-steve-jobs/
-
-https://www.toptal.com/designers/subtlepatterns/brushed-alum-dark/
-
-https://www.toptal.com/designers/subtlepatterns/grey-washed-wall/
-https://www.toptal.com/designers/subtlepatterns/lined-paper-2/
-https://www.toptal.com/designers/subtlepatterns/starring/
-
 ### How to..
 https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#project-title
+

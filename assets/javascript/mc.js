@@ -29,7 +29,7 @@ var portfolio = {
 
     gifShow : {
         title: "The Dancing GIF Engine", 
-        sub: "created with API Calls (ajax)",
+        sub: "JavaScript, jQuery, ajax (jQuery), Bootstrap CSS",
         description: "Here I created a GIF-getting website that displays dancing GIFS from a preset list," +
         "but the site also allows the user to stop and start the animation and create custom buttons that grab GIFs of their choosing." +
         "The code behind this relies on jQuery.ajax calls and the HTML5’s data-attributes to get the DOM moving and grooving.",
@@ -39,18 +39,20 @@ var portfolio = {
     },
     RPS : {
         title: "Multiplayer Rock-Paper-Sciccors", 
-        sub: "created with Firebase (realtime database)",
-        description: "Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.",
+        sub: "JavaScript, jQuery, Firebase (realtime database)",
+        description: "With this multiplayer rock/paper/scissors game, I kept the design bright and playful like the interaction space for the players." + 
+        "This was a challenging coding assignment given only a week and the heavy Firebase dependency but I completed it using a modular design and the usual suspects including" +
+        "js, jQuery and Bootstrap.",
         imageUrl: "assets/images/rps.jpg",
-        deployUrl: "",
-        codeUrl: "",
+        deployUrl: "https://markcam1.github.io/RPS-Multiplayer/",
+        codeUrl: "https://github.com/markcam1/RPS-Multiplayer",
     },
     TeamWork : {
         title: "Calendar", 
-        sub: "??",
-        description: "Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.",
+        sub: "TBA",
+        description: "TBA",
         imageUrl: "assets/images/calendar.jpg",
-        deployUrl: "#",
+        deployUrl: "https://calendarapp1bootcamp.github.io/calendar_final/",
         codeUrl: "https://calendarapp1bootcamp.github.io/calendar_final/",
     },
 
@@ -168,7 +170,7 @@ function carouselDataMaker (){
     carouselCounter = Object.keys(portfolio);
     portfoliioKeysArray = carouselCounter.length;
 
-    for (i = 1; i < portfoliioKeysArray; i++){
+    for (i = 1; i < portfoliioKeysArray+1; i++){
 
         var slideNum = [i];
         var carouselTarget = $("<li>");
