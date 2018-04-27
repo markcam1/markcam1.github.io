@@ -93,7 +93,7 @@ $(document).ready(function(){
        var bannerImage = newBtn.imageUrl;
        var bannerDeploy = newBtn.deployUrl;
        
-       var grandParentDiv = $("<a/>");
+       var grandParentDiv = $("<a target='_blank'>");
     
        grandParentDiv.attr({
            href: bannerDeploy,

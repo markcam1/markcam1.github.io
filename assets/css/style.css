@@ -2,20 +2,25 @@ body {
     background: url(../images/whitey.png)
 }
 
-
-#mcpic {
-    width: 30%;
-
-    /* height: 50%; */
+#mch1 {
+    font-family: 'Meie Script', cursive;
+    /* font-family: 'Marck Script', cursive; */
 }
 
+#mch2 {
+    font-family: 'Gugi', cursive;
+}
 
-/* .nav {
-    background: url(../images/brushed.png)
+#mcnav {
+    background: black;
+    color: white;
+}
+
+/* .dropdown-item a:link {
+    color: red;
 } */
-/* .nav-link  {
-    background: url(../images/restaurant.png)
-} */
+
+
 .carouselimage {
 
     height: 400px;
@@ -23,9 +28,7 @@ body {
 }
 
 .carousel-caption {
-
     background: black;
-
 }
 
 
@@ -35,11 +38,3 @@ body {
     bottom: 0;
 }
 
-/* small {
-    font-size: 90%;
-
-} */
-/* .xxx {
-    width: 15%;
-
-} */
