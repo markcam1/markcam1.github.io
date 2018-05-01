@@ -1,51 +1,34 @@
 # Mark Cameron Portfolio Page
-One Paragraph of project description goes here
+This is my portfolio page used to display some of my work.
 
+## Usage
+You can use this page's code as a template for your own site.  
 
-## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+### Build Your Own
 
-### Prerequisites
-
-What things you need to install the software and how to install them
+What things you need to create a similar page
 
 ```
-Give examples
+Use a text editor or IDE - I use VS Code.
+Make sure you add the jQuery, Bootstrap and GoogleFont links if you need them.
 ```
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* [jQuery](http://jquery.com/) - jQuery
+* [Bootstrap](https://getbootstrap.com/) - CSS & JavaScript
+* [google fonts](https://fonts.google.com/) - Used for some Fonts
+* [Visual Studio Code](https://code.visualstudio.com/) - IDE
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Mark Cameron** - *Entire work*
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/markcam1/markcam1.github.io/blob/master/LICENSE.md) file for details
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
-
-
-### How to..
-https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#project-title
-
-https://www.videvo.net/video/abstract-blue-sea-with-planets/1623/
-
-
+* UC Berkeley Extension
+* Teachers [David Blanchard](https://www.linkedin.com/in/dblanchard13/), [Rai Lee](https://www.linkedin.com/in/rai-lee-38061696/), [Emma Brown]
+* _“Wisdom is not a product of schooling but of the lifelong attempt to acquire it.”_ **― Albert Einstein** 
