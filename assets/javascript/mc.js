@@ -55,7 +55,6 @@ var portfolio = {
         deployUrl: "https://calendarapp1bootcamp.github.io/calendar_final/",
         codeUrl: "https://calendarapp1bootcamp.github.io/calendar_final/",
     },
-
 }
 
 var aClass = "list-group-item list-group-item-action flex-column align-items-start";
@@ -67,22 +66,14 @@ var classCarousel_Image = "d-block w-100 carouselimage";
 
 $(document).ready(function(){
 
-
-
-
     function buttonPusher (){
 
-        
         for (var key in portfolio){
             buttonData = portfolio[key];
             screenListRender(buttonData);
             screenCarouselRender(buttonData);
         }
-
-
     } 
-    
-
     
     function screenListRender(inButtons){
     
@@ -92,9 +83,7 @@ $(document).ready(function(){
        var bannerDesc = newBtn.description;
        var bannerImage = newBtn.imageUrl;
        var bannerDeploy = newBtn.deployUrl;
-       
        var grandParentDiv = $("<a target='_blank'>");
-    
        grandParentDiv.attr({
            href: bannerDeploy,
            class: aClass,
@@ -105,7 +94,6 @@ $(document).ready(function(){
        var paragraphText = $("<p>");
        var smallText = $("<small class='text-muted'>").text(bannerSubTitle);
        var imgThumb = $("<img>");
-
        headDiv.attr({
            class: flexClass,
        })
@@ -120,17 +108,13 @@ $(document).ready(function(){
            class: classImgThumb,
            alt: bannerTitle,
        })
-
        $(headDivHeading).text(bannerTitle);
        $(paragraphText).text(bannerDesc);
-
        $(grandParentDiv).append(headDiv);
        $(headDiv).append(headDivHeading);
-
        $(grandParentDiv).append(imgThumb);
        $(grandParentDiv).append(paragraphText);
        $(grandParentDiv).append(smallText);
-
        $("#buttondrop").append(grandParentDiv)
     }
 
@@ -140,28 +124,42 @@ $(document).ready(function(){
         var newBtn = inCarouselBtns;
         var bannerTitle = newBtn.title;
         var bannerImage = newBtn.imageUrl;
-       
-       var carouselParentDiv = $("<div/>");
-       var carouselImage = $("<img/>");
+        var carouselParentDiv = $("<div/>");
+        var carouselImage = $("<img/>");
     
        carouselParentDiv.attr({
            class: classCarouselItem,
        })
-
-       carouselImage.attr({
-        src: bannerImage,
-        class: classCarousel_Image,
-        alt: bannerTitle,
-    })
-       
+        carouselImage.attr({
+            src: bannerImage,
+            class: classCarousel_Image,
+            alt: bannerTitle,
+        })
         $(carouselParentDiv).append(carouselImage);
+        $("#carouseldrop").append(carouselParentDiv)
+        }
+        carouselDataMaker();
+        buttonPusher();
 
-       $("#carouseldrop").append(carouselParentDiv)
-    
+    function displayIndex (){
+        setTimeout(function(){$("#dd").show(5000) }, 6000);
     }
+    
+    displayIndex();
 
-    carouselDataMaker();
-    buttonPusher();
+    var showText = function (target, message, index, interval) {   
+        if (index < message.length) {
+          $(target).append(message[index++]);
+          setTimeout(function () { showText(target, message, index, interval); }, interval);
+        }
+      }
+
+    $(function () {
+        showText("#mch1", "Mark Cameron", 0, 500);   
+    });
+
+
+
 
 })
 
@@ -179,11 +177,8 @@ function carouselDataMaker (){
             "data-target": "#carouselPortfolio",
             "data-slide-to" : slideNum
         })
-
         $("#carouseldatadrop").append(carouselTarget);
     }
-
-
 }
 
 
