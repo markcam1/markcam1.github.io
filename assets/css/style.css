@@ -7,19 +7,15 @@ body {
     /* font-family: 'Marck Script', cursive; */
 }
 
-#mch2 {
+#dd {
     font-family: 'Gugi', cursive;
+    display: none;
 }
 
 #mcnav {
     background: black;
     color: white;
 }
-
-/* .dropdown-item a:link {
-    color: red;
-} */
-
 
 .carouselimage {
 
