@@ -59,9 +59,9 @@ var portfolio = {
     },
     nodeLiri : {
         title: "Node Liri app", 
-        sub: "JavaScript, Node.js, ",
+        sub: "JavaScript, Node.js",
         description: "LIRI is a Language Interpretation and Recognition Interface." + 
-        "This production employs JavaScript, and a number Node.js packages " +
+        "This production employs JavaScript, and a number Node.js packages." +
         "to query Twitter, Spotify and OMDB.",
         imageUrl: "assets/images/liri_node.png",
         deployUrl: "https://github.com/markcam1/liri-node-app",
@@ -170,10 +170,6 @@ $(document).ready(function(){
     $(function () {
         showText("#mch1", "Mark Cameron", 0, 500);   
     });
-
-
-
-
 })
 
 function carouselDataMaker (){
@@ -193,8 +189,3 @@ function carouselDataMaker (){
         $("#carouseldatadrop").append(carouselTarget);
     }
 }
-
-
-
-
-
