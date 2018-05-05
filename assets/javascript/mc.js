@@ -49,12 +49,25 @@ var portfolio = {
     },
     TeamWork : {
         title: "Calendar", 
-        sub: "TBA",
-        description: "TBA",
+        sub: "JavaScript, jQuery, Firebase (realtime database)",
+        description: "This calendar application was built on an extensible framework that allows developers to add" +
+        "search endpoints to enhance the user experience. The underlying technology includes JavaScript, jQuery/ajax," + 
+        "moment.js, Firebase and a number of REST APIs. ",
         imageUrl: "assets/images/calendar.jpg",
         deployUrl: "https://calendarapp1bootcamp.github.io/calendar_final/",
-        codeUrl: "https://calendarapp1bootcamp.github.io/calendar_final/",
+        codeUrl: "https://github.com/calendarapp1bootcamp/calendar_final",
     },
+    nodeLiri : {
+        title: "Node Liri app", 
+        sub: "JavaScript, Node.js, ",
+        description: "LIRI is a Language Interpretation and Recognition Interface." + 
+        "This production employs JavaScript, and a number Node.js packages " +
+        "to query Twitter, Spotify and OMDB.",
+        imageUrl: "assets/images/liri_node.png",
+        deployUrl: "https://github.com/markcam1/liri-node-app",
+        codeUrl: "https://github.com/markcam1/liri-node-app",
+    },
+
 }
 
 var aClass = "list-group-item list-group-item-action flex-column align-items-start";

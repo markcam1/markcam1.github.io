@@ -1,5 +1,5 @@
 # Mark Cameron Portfolio Page
-This is my portfolio page used to display some of my work.
+This is my portfolio page used to display my work.
 
 ## Usage
 You can use this page's code as a template for your own site.  
